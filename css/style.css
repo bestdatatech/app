@@ -199,6 +199,16 @@ textarea {
     .text-primary {
       font-size: 2rem; } }
 
+.text-primary-gray {
+  color: #3e3e3dd3;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6; }
+  @media only screen and (max-width: 37.5em) {
+    .text-primary {
+      font-size: 2rem; } }      
+
 .d-none {
   display: none; }
 
@@ -693,9 +703,10 @@ textarea {
   .header__sm-menu-link-last {
     border-bottom: 0; }
 
-.main-footer {
-  background: conic-gradient(at 72% 28%, red, rgb(14, 215, 208), rgba(0,128,0,0.65)), url(../../assets/svg/common-bg.svg);
-  color: #fff; }
+  .main-footer {
+    background: conic-gradient(at 72% 28%, red, rgb(14, 215, 208), rgba(0,128,0,0.65)), url(../../assets/svg/common-bg.svg);
+    color: #fff;
+  }
   .main-footer__upper {
     display: flex;
     justify-content: space-between;
