@@ -16,6 +16,7 @@
       rel="stylesheet"
     />
     <link rel="icon" href="./assets/png/R-bdt-logo.png">
+    <script src="js/functions.js"></script>
   </head>
   <body>
 
@@ -213,7 +214,7 @@
         
         <div class="contact__form-container">
           <form action="https://formspree.io/f/xbjvjjba" method="POST" class="contact__form" id="form">
-  
+    
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Nombre</label>
               <input required placeholder="Ingresar nombre" type="text" class="contact__form-input" name="name" id="name" />
@@ -223,27 +224,27 @@
               <label class="contact__form-label" for="email">Correo electrónico</label>
               <input required placeholder="Ingresar correo electrónico" type="email" class="contact__form-input" name="email" id="email" />
             </div>
-  
+    
             <div class="contact__form-field">
               <label class="contact__form-label" for="message">Déjanos un mensaje</label>
-              <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Ingresar mensaje a Best Data Tech" name="message" id="message" ></textarea>
+              <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Ingresar mensaje a Best Data Tech" name="message" id="message"></textarea>
             </div>
-  
+    
             <div style="text-align:center;">
-                <button type="submit" class="btn contact__btn--theme contact__btn" onclick="btn_submit()">Enviar</button>
-                <button type="reset" class="btn contact__btn_clean--theme contact__btn_clean" onclick="btn_clean()">Limpiar</button>
+              <button type="submit" class="btn contact__btn--theme contact__btn" onclick="btn_submit()">Enviar</button>
+              <button type="reset" class="btn contact__btn_clean--theme contact__btn_clean" onclick="btn_clean()">Limpiar</button>
             </div>
-  
+    
             <div style="display:none;" id="alert_msg_succ" class="alert_msg_succ">
               <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>             
               <strong>Mensaje Recibido Exitosamente!</strong> Nos pondremos en contacto contigo pronto!
             </div>
-  
+    
             <div style="display:none;" id="alert_msg_clean" class="alert_msg_clean">
               <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>             
               <strong>Limpiado!</strong>
             </div>
-  
+    
           </form>
         </div>
       </div>

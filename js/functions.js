@@ -5,7 +5,7 @@ function close_alert(){
 
 function btn_clean(){
     document.getElementById('alert_msg_clean').style.display = "block";
-    setTimeout(close_alert, 2000); //3 sec
+    setTimeout(close_alert, 2000); 
 }
 
 function btn_submit(){
